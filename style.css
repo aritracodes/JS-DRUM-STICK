@@ -1,0 +1,49 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing:unset;
+}
+
+.fullbox{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.boxes>.key{
+    margin: 0rem 1rem;
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    background-color: pink;
+    min-width: 8%;
+    font-family: sans-serif;
+    border: 1px solid rgb(251, 147, 164);
+    cursor: pointer;
+    transition: all .07s ease;
+}
+
+.key>kbd{
+    color: grey;
+    font-size: 2rem;
+}
+
+.key>span{
+    font-size: 1.1rem;
+}
+
+.clicked{
+    border: 5px solid rgb(253, 167, 181);
+    transform: scale(1.5);
+}
